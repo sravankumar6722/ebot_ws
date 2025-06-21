@@ -1,0 +1,309 @@
+[0.000000] (-) TimerEvent: {}
+[0.001998] (ebot_control) JobQueued: {'identifier': 'ebot_control', 'dependencies': OrderedDict()}
+[0.002236] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.006160] (ebot_control) JobStarted: {'identifier': 'ebot_control'}
+[0.073929] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.100174] (-) TimerEvent: {}
+[0.203147] (-) TimerEvent: {}
+[0.304464] (-) TimerEvent: {}
+[0.405664] (-) TimerEvent: {}
+[0.506212] (-) TimerEvent: {}
+[0.606833] (-) TimerEvent: {}
+[0.732201] (-) TimerEvent: {}
+[0.838107] (-) TimerEvent: {}
+[0.938686] (-) TimerEvent: {}
+[1.039479] (-) TimerEvent: {}
+[1.142045] (-) TimerEvent: {}
+[1.249427] (-) TimerEvent: {}
+[1.270185] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[1.271354] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[1.273867] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vgi/ebot_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/vgi/ebot_ws/build/sllidar_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vgi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vgi', 'OLDPWD': '/home/vgi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2391', 'SYSTEMD_EXEC_PID': '2787', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5255', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vgi/ebot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vgi', 'JOURNAL_STREAM': '8:19298', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vgi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vgi:@/tmp/.ICE-unix/2618,unix/vgi:/tmp/.ICE-unix/2618', 'INVOCATION_ID': '046aa167cab24f8f918ffb015b9f6d1d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.MPLE82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vgi/ebot_ws/install/sllidar_ros2:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b271d73b-5f7c-4f2f-a3d8-17767a4fb97a', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vgi/ebot_ws/build/sllidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vgi/ebot_ws/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy'}), 'shell': False}
+[1.349634] (-) TimerEvent: {}
+[1.450730] (-) TimerEvent: {}
+[1.554296] (-) TimerEvent: {}
+[1.657247] (-) TimerEvent: {}
+[1.739881] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[1.758753] (-) TimerEvent: {}
+[1.790140] (sllidar_ros2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[1.860724] (-) TimerEvent: {}
+[1.963225] (-) TimerEvent: {}
+[2.065810] (-) TimerEvent: {}
+[2.167729] (-) TimerEvent: {}
+[2.268723] (-) TimerEvent: {}
+[2.371750] (-) TimerEvent: {}
+[2.472285] (-) TimerEvent: {}
+[2.572885] (-) TimerEvent: {}
+[2.675011] (-) TimerEvent: {}
+[2.779286] (-) TimerEvent: {}
+[2.880014] (-) TimerEvent: {}
+[2.984731] (-) TimerEvent: {}
+[3.085418] (-) TimerEvent: {}
+[3.188687] (-) TimerEvent: {}
+[3.289268] (-) TimerEvent: {}
+[3.391550] (-) TimerEvent: {}
+[3.492726] (-) TimerEvent: {}
+[3.593339] (-) TimerEvent: {}
+[3.695693] (-) TimerEvent: {}
+[3.796349] (-) TimerEvent: {}
+[3.897041] (-) TimerEvent: {}
+[3.998339] (-) TimerEvent: {}
+[4.100669] (-) TimerEvent: {}
+[4.206691] (-) TimerEvent: {}
+[4.309960] (-) TimerEvent: {}
+[4.410748] (-) TimerEvent: {}
+[4.522702] (-) TimerEvent: {}
+[4.623336] (-) TimerEvent: {}
+[4.725937] (-) TimerEvent: {}
+[4.827616] (-) TimerEvent: {}
+[4.928985] (-) TimerEvent: {}
+[5.030743] (-) TimerEvent: {}
+[5.133074] (-) TimerEvent: {}
+[5.234087] (ebot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ebot_control', 'build', '--build-base', '/home/vgi/ebot_ws/build/ebot_control/build', 'install', '--record', '/home/vgi/ebot_ws/build/ebot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vgi/ebot_ws/src/ebot_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vgi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vgi', 'OLDPWD': '/home/vgi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2391', 'SYSTEMD_EXEC_PID': '2787', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5255', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vgi/ebot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vgi', 'JOURNAL_STREAM': '8:19298', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vgi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vgi:@/tmp/.ICE-unix/2618,unix/vgi:/tmp/.ICE-unix/2618', 'INVOCATION_ID': '046aa167cab24f8f918ffb015b9f6d1d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.MPLE82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vgi/ebot_ws/install/sllidar_ros2:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b271d73b-5f7c-4f2f-a3d8-17767a4fb97a', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vgi/ebot_ws/build/ebot_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vgi/ebot_ws/build/ebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages:/home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vgi/ebot_ws/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.237457] (-) TimerEvent: {}
+[5.338026] (-) TimerEvent: {}
+[5.439264] (-) TimerEvent: {}
+[5.539952] (-) TimerEvent: {}
+[5.642847] (-) TimerEvent: {}
+[5.743513] (-) TimerEvent: {}
+[5.844872] (-) TimerEvent: {}
+[5.948154] (-) TimerEvent: {}
+[6.049350] (-) TimerEvent: {}
+[6.151685] (-) TimerEvent: {}
+[6.252365] (-) TimerEvent: {}
+[6.359190] (-) TimerEvent: {}
+[6.461272] (-) TimerEvent: {}
+[6.567275] (-) TimerEvent: {}
+[6.668025] (-) TimerEvent: {}
+[6.768673] (-) TimerEvent: {}
+[6.836297] (ebot_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.869685] (-) TimerEvent: {}
+[6.945444] (ebot_control) StdoutLine: {'line': b'writing ../../build/ebot_control/ebot_control.egg-info/PKG-INFO\n'}
+[6.948529] (ebot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/ebot_control/ebot_control.egg-info/dependency_links.txt\n'}
+[6.949834] (ebot_control) StdoutLine: {'line': b'writing entry points to ../../build/ebot_control/ebot_control.egg-info/entry_points.txt\n'}
+[6.950695] (ebot_control) StdoutLine: {'line': b'writing requirements to ../../build/ebot_control/ebot_control.egg-info/requires.txt\n'}
+[6.953464] (ebot_control) StdoutLine: {'line': b'writing top-level names to ../../build/ebot_control/ebot_control.egg-info/top_level.txt\n'}
+[6.969848] (-) TimerEvent: {}
+[7.071022] (-) TimerEvent: {}
+[7.171723] (-) TimerEvent: {}
+[7.191924] (ebot_control) StdoutLine: {'line': b"reading manifest file '../../build/ebot_control/ebot_control.egg-info/SOURCES.txt'\n"}
+[7.194551] (ebot_control) StdoutLine: {'line': b"writing manifest file '../../build/ebot_control/ebot_control.egg-info/SOURCES.txt'\n"}
+[7.197770] (ebot_control) StdoutLine: {'line': b'running build\n'}
+[7.198275] (ebot_control) StdoutLine: {'line': b'running build_py\n'}
+[7.198521] (ebot_control) StdoutLine: {'line': b'running install\n'}
+[7.223596] (ebot_control) StdoutLine: {'line': b'running install_lib\n'}
+[7.272892] (-) TimerEvent: {}
+[7.322021] (ebot_control) StdoutLine: {'line': b'running install_data\n'}
+[7.324865] (ebot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.373035] (-) TimerEvent: {}
+[7.438447] (ebot_control) StdoutLine: {'line': b"removing '/home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages/ebot_control-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.439713] (ebot_control) StdoutLine: {'line': b'Copying ../../build/ebot_control/ebot_control.egg-info to /home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages/ebot_control-0.0.0-py3.12.egg-info\n'}
+[7.442813] (ebot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[7.473473] (-) TimerEvent: {}
+[7.579724] (-) TimerEvent: {}
+[7.682763] (-) TimerEvent: {}
+[7.783675] (-) TimerEvent: {}
+[7.884408] (-) TimerEvent: {}
+[7.987706] (-) TimerEvent: {}
+[8.088551] (-) TimerEvent: {}
+[8.195640] (-) TimerEvent: {}
+[8.299448] (-) TimerEvent: {}
+[8.344838] (ebot_control) StdoutLine: {'line': b'Installing controller_node script to /home/vgi/ebot_ws/install/ebot_control/lib/ebot_control\n'}
+[8.345460] (ebot_control) StdoutLine: {'line': b"writing list of installed files to '/home/vgi/ebot_ws/build/ebot_control/install.log'\n"}
+[8.399676] (-) TimerEvent: {}
+[8.501755] (-) TimerEvent: {}
+[8.596277] (ebot_control) CommandEnded: {'returncode': 0}
+[8.605066] (-) TimerEvent: {}
+[8.664401] (ebot_control) JobEnded: {'identifier': 'ebot_control', 'rc': 0}
+[8.705525] (-) TimerEvent: {}
+[8.806288] (-) TimerEvent: {}
+[8.909946] (-) TimerEvent: {}
+[9.010781] (-) TimerEvent: {}
+[9.111653] (-) TimerEvent: {}
+[9.212339] (-) TimerEvent: {}
+[9.313010] (-) TimerEvent: {}
+[9.413665] (-) TimerEvent: {}
+[9.514226] (-) TimerEvent: {}
+[9.615598] (-) TimerEvent: {}
+[9.716286] (-) TimerEvent: {}
+[9.816963] (-) TimerEvent: {}
+[9.917535] (-) TimerEvent: {}
+[10.018177] (-) TimerEvent: {}
+[10.120626] (-) TimerEvent: {}
+[10.221203] (-) TimerEvent: {}
+[10.323181] (-) TimerEvent: {}
+[10.426227] (-) TimerEvent: {}
+[10.526870] (-) TimerEvent: {}
+[10.627835] (-) TimerEvent: {}
+[10.729858] (-) TimerEvent: {}
+[10.831709] (-) TimerEvent: {}
+[10.932650] (-) TimerEvent: {}
+[11.033538] (-) TimerEvent: {}
+[11.134081] (-) TimerEvent: {}
+[11.234637] (-) TimerEvent: {}
+[11.335179] (-) TimerEvent: {}
+[11.435707] (-) TimerEvent: {}
+[11.536283] (-) TimerEvent: {}
+[11.636873] (-) TimerEvent: {}
+[11.737266] (-) TimerEvent: {}
+[11.837762] (-) TimerEvent: {}
+[11.939101] (-) TimerEvent: {}
+[12.039632] (-) TimerEvent: {}
+[12.140181] (-) TimerEvent: {}
+[12.239252] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/vgi/ebot_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[12.239873] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vgi/ebot_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[12.240142] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vgi/ebot_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[12.240425] (-) TimerEvent: {}
+[12.240676] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vgi/ebot_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[12.240963] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vgi/ebot_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.241201] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.241413] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.242799] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vgi/ebot_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.243305] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.243613] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.340595] (-) TimerEvent: {}
+[12.441113] (-) TimerEvent: {}
+[12.541626] (-) TimerEvent: {}
+[12.642137] (-) TimerEvent: {}
+[12.742651] (-) TimerEvent: {}
+[12.843041] (-) TimerEvent: {}
+[12.943539] (-) TimerEvent: {}
+[13.044090] (-) TimerEvent: {}
+[13.144555] (-) TimerEvent: {}
+[13.245003] (-) TimerEvent: {}
+[13.345607] (-) TimerEvent: {}
+[13.445990] (-) TimerEvent: {}
+[13.546486] (-) TimerEvent: {}
+[13.646897] (-) TimerEvent: {}
+[13.747430] (-) TimerEvent: {}
+[13.848004] (-) TimerEvent: {}
+[13.948701] (-) TimerEvent: {}
+[14.049289] (-) TimerEvent: {}
+[14.149685] (-) TimerEvent: {}
+[14.250202] (-) TimerEvent: {}
+[14.350721] (-) TimerEvent: {}
+[14.451193] (-) TimerEvent: {}
+[14.551622] (-) TimerEvent: {}
+[14.652101] (-) TimerEvent: {}
+[14.752459] (-) TimerEvent: {}
+[14.852911] (-) TimerEvent: {}
+[14.953380] (-) TimerEvent: {}
+[15.053787] (-) TimerEvent: {}
+[15.154277] (-) TimerEvent: {}
+[15.254685] (-) TimerEvent: {}
+[15.355224] (-) TimerEvent: {}
+[15.455781] (-) TimerEvent: {}
+[15.556160] (-) TimerEvent: {}
+[15.656662] (-) TimerEvent: {}
+[15.757180] (-) TimerEvent: {}
+[15.857645] (-) TimerEvent: {}
+[15.958023] (-) TimerEvent: {}
+[16.058561] (-) TimerEvent: {}
+[16.159078] (-) TimerEvent: {}
+[16.259489] (-) TimerEvent: {}
+[16.360007] (-) TimerEvent: {}
+[16.460494] (-) TimerEvent: {}
+[16.560933] (-) TimerEvent: {}
+[16.661426] (-) TimerEvent: {}
+[16.761983] (-) TimerEvent: {}
+[16.862468] (-) TimerEvent: {}
+[16.963009] (-) TimerEvent: {}
+[17.063502] (-) TimerEvent: {}
+[17.163984] (-) TimerEvent: {}
+[17.264368] (-) TimerEvent: {}
+[17.364874] (-) TimerEvent: {}
+[17.465266] (-) TimerEvent: {}
+[17.565777] (-) TimerEvent: {}
+[17.666152] (-) TimerEvent: {}
+[17.766663] (-) TimerEvent: {}
+[17.867173] (-) TimerEvent: {}
+[17.967680] (-) TimerEvent: {}
+[18.068157] (-) TimerEvent: {}
+[18.168542] (-) TimerEvent: {}
+[18.269135] (-) TimerEvent: {}
+[18.369650] (-) TimerEvent: {}
+[18.470058] (-) TimerEvent: {}
+[18.570553] (-) TimerEvent: {}
+[18.671134] (-) TimerEvent: {}
+[18.771660] (-) TimerEvent: {}
+[18.872136] (-) TimerEvent: {}
+[18.972513] (-) TimerEvent: {}
+[19.072986] (-) TimerEvent: {}
+[19.173357] (-) TimerEvent: {}
+[19.273788] (-) TimerEvent: {}
+[19.374319] (-) TimerEvent: {}
+[19.474872] (-) TimerEvent: {}
+[19.575280] (-) TimerEvent: {}
+[19.675832] (-) TimerEvent: {}
+[19.776222] (-) TimerEvent: {}
+[19.876712] (-) TimerEvent: {}
+[19.937327] (sllidar_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable sllidar_node\x1b[0m\n'}
+[19.976855] (-) TimerEvent: {}
+[20.077396] (-) TimerEvent: {}
+[20.178025] (-) TimerEvent: {}
+[20.278790] (-) TimerEvent: {}
+[20.379975] (-) TimerEvent: {}
+[20.483345] (-) TimerEvent: {}
+[20.584032] (-) TimerEvent: {}
+[20.690458] (-) TimerEvent: {}
+[20.794463] (-) TimerEvent: {}
+[20.900757] (-) TimerEvent: {}
+[21.001590] (-) TimerEvent: {}
+[21.104138] (-) TimerEvent: {}
+[21.164554] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[21.204328] (-) TimerEvent: {}
+[21.226146] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[21.227405] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[21.286715] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vgi/ebot_ws/build/sllidar_ros2'], 'cwd': '/home/vgi/ebot_ws/build/sllidar_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vgi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vgi', 'OLDPWD': '/home/vgi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2391', 'SYSTEMD_EXEC_PID': '2787', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5255', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vgi/ebot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vgi', 'JOURNAL_STREAM': '8:19298', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vgi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vgi:@/tmp/.ICE-unix/2618,unix/vgi:/tmp/.ICE-unix/2618', 'INVOCATION_ID': '046aa167cab24f8f918ffb015b9f6d1d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.MPLE82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vgi/ebot_ws/install/sllidar_ros2:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b271d73b-5f7c-4f2f-a3d8-17767a4fb97a', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vgi/ebot_ws/build/sllidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vgi/ebot_ws/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy'}), 'shell': False}
+[21.304482] (-) TimerEvent: {}
+[21.330638] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.331306] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[21.331771] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[21.332031] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[21.332553] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[21.332811] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[21.333027] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[21.333235] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[21.333516] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[21.333762] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[21.333987] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[21.334208] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[21.334412] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[21.334649] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[21.334880] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[21.335092] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[21.335323] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[21.335609] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[21.335872] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[21.336108] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[21.336562] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[21.336868] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[21.337090] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[21.337302] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[21.337516] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[21.337758] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[21.337967] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[21.338171] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[21.338454] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/vgi/ebot_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[21.349420] (sllidar_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vgi/ebot_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node" to ""\n'}
+[21.350484] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[21.351684] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[21.352169] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[21.354483] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[21.355513] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[21.356084] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[21.356344] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[21.356611] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[21.356897] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[21.357219] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[21.357467] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[21.360608] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[21.361646] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[21.361956] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.362175] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.362389] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[21.362638] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[21.362854] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[21.365941] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[21.404632] (-) TimerEvent: {}
+[21.410559] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[21.415358] (-) EventReactorShutdown: {}

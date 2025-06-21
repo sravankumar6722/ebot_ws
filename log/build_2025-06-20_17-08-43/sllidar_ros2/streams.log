@@ -1,0 +1,66 @@
+[0.725s] Invoking command in '/home/vgi/ebot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vgi/ebot_ws/build/sllidar_ros2 -- -j4 -l4
+[0.999s] [ 10%] Built target sllidar_client
+[1.104s] [ 15%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[9.766s] In file included from [01m[K/home/vgi/ebot_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[9.766s]                  from [01m[K/home/vgi/ebot_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[9.766s]                  from [01m[K/home/vgi/ebot_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[9.767s]                  from [01m[K/home/vgi/ebot_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[9.767s] [01m[K/home/vgi/ebot_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.767s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[9.767s]       |                [01;35m[K^[m[K
+[9.768s] [01m[K/home/vgi/ebot_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.768s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[9.769s]       |                    [01;35m[K^[m[K
+[21.103s] [ 20%] [32m[1mLinking CXX executable sllidar_node[0m
+[22.110s] [100%] Built target sllidar_node
+[22.159s] Invoked command in '/home/vgi/ebot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vgi/ebot_ws/build/sllidar_ros2 -- -j4 -l4
+[22.198s] Invoking command in '/home/vgi/ebot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vgi/ebot_ws/build/sllidar_ros2
+[22.241s] -- Install configuration: ""
+[22.242s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+[22.242s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[22.242s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[22.242s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[22.243s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[22.243s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[22.243s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[22.250s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[22.251s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[22.251s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[22.251s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[22.256s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[22.256s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[22.257s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[22.257s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[22.257s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[22.258s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[22.258s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[22.258s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[22.258s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[22.262s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[22.263s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[22.263s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[22.264s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[22.264s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[22.264s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+[22.264s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[22.268s] -- Installing: /home/vgi/ebot_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[22.291s] -- Set non-toolchain portion of runtime path of "/home/vgi/ebot_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node" to ""
+[22.292s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[22.293s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[22.293s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[22.293s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[22.294s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[22.294s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[22.302s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[22.302s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[22.303s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[22.303s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[22.307s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[22.307s] -- Installing: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[22.308s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[22.308s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.308s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.309s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[22.309s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[22.309s] -- Up-to-date: /home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[22.330s] Invoked command in '/home/vgi/ebot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vgi/ebot_ws/build/sllidar_ros2

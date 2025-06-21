@@ -1,0 +1,26 @@
+[1.380s] Invoking command in '/home/vgi/ebot_ws/src/ebot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vgi/ebot_ws/build/ebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ebot_control build --build-base /home/vgi/ebot_ws/build/ebot_control/build install --record /home/vgi/ebot_ws/build/ebot_control/install.log --single-version-externally-managed install_data
+[1.757s] running egg_info
+[1.784s] writing ../../build/ebot_control/ebot_control.egg-info/PKG-INFO
+[1.785s] writing dependency_links to ../../build/ebot_control/ebot_control.egg-info/dependency_links.txt
+[1.786s] writing entry points to ../../build/ebot_control/ebot_control.egg-info/entry_points.txt
+[1.786s] writing requirements to ../../build/ebot_control/ebot_control.egg-info/requires.txt
+[1.787s] writing top-level names to ../../build/ebot_control/ebot_control.egg-info/top_level.txt
+[1.844s] reading manifest file '../../build/ebot_control/ebot_control.egg-info/SOURCES.txt'
+[1.845s] writing manifest file '../../build/ebot_control/ebot_control.egg-info/SOURCES.txt'
+[1.846s] running build
+[1.846s] running build_py
+[1.846s] running install
+[1.855s] running install_lib
+[1.883s] running install_data
+[1.884s] creating /home/vgi/ebot_ws/install/ebot_control/share/ebot_control/config
+[1.884s] copying config/nav2_params.yaml -> /home/vgi/ebot_ws/install/ebot_control/share/ebot_control/config
+[1.884s] creating /home/vgi/ebot_ws/install/ebot_control/share/ebot_control/resource
+[1.884s] copying resource/ebot_control -> /home/vgi/ebot_ws/install/ebot_control/share/ebot_control/resource
+[1.884s] creating /home/vgi/ebot_ws/install/ebot_control/share/ebot_control/worlds
+[1.884s] running install_egg_info
+[1.915s] removing '/home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages/ebot_control-0.0.0-py3.12.egg-info' (and everything under it)
+[1.915s] Copying ../../build/ebot_control/ebot_control.egg-info to /home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages/ebot_control-0.0.0-py3.12.egg-info
+[1.916s] running install_scripts
+[2.113s] Installing controller_node script to /home/vgi/ebot_ws/install/ebot_control/lib/ebot_control
+[2.113s] writing list of installed files to '/home/vgi/ebot_ws/build/ebot_control/install.log'
+[2.221s] Invoked command in '/home/vgi/ebot_ws/src/ebot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vgi/ebot_ws/build/ebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ebot_control build --build-base /home/vgi/ebot_ws/build/ebot_control/build install --record /home/vgi/ebot_ws/build/ebot_control/install.log --single-version-externally-managed install_data

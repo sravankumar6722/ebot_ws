@@ -1,0 +1,2 @@
+[console_scripts]
+controller_node = ebot_control.controller_node:main

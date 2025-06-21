@@ -1,0 +1,75 @@
+### Global Costmap (for the entire environment) ###
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      robot_base_frame: "base_link"       # Your robot's base frame (from URDF)
+      update_frequency: 1.0
+      publish_frequency: 1.0
+      transform_tolerance: 0.5
+      plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+      static_layer:
+        map_topic: "/map"                 # Topic for the static map
+      obstacle_layer:
+        observation_sources: "scan"       # LiDAR topic
+        scan:
+          topic: "/scan"                  # Adjust if your LiDAR uses a different topic
+          data_type: "LaserScan"
+          marking: true
+          clearing: true
+      inflation_layer:
+        inflation_radius: 0.3             # Adjust based on robot size
+
+### Local Costmap (for immediate obstacles) ###
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      robot_base_frame: "base_link"
+      update_frequency: 5.0               # Higher frequency for dynamic obstacles
+      publish_frequency: 2.0
+      width: 3.0                          # Meters (adjust based on robot speed)
+      height: 3.0
+      resolution: 0.05                    # Grid resolution (meters/cell)
+      plugins: ["obstacle_layer", "inflation_layer"]
+      obstacle_layer:
+        observation_sources: "scan"
+        scan:
+          topic: "/scan"
+          data_type: "LaserScan"
+      inflation_layer:
+        inflation_radius: 0.3
+
+### AMCL (Localization) ###
+amcl:
+  ros__parameters:
+    min_particles: 500                    # Tune for accuracy vs. performance
+    max_particles: 2000
+    initial_pose:
+      x: 0.0                              # Starting pose (if known)
+      y: 0.0
+      theta: 0.0
+    laser_model_type: "likelihood_field"  # Better for LiDAR
+    odom_model_type: "diff"               # For differential drive robots
+
+### Behavior Trees (Navigation Logic) ###
+bt_navigator:
+  ros__parameters:
+    global_frame: "map"
+    robot_base_frame: "base_link"
+    transform_tolerance: 0.5
+
+### Planner (Global Path Planning) ###
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 1.0
+    use_sim_time: false                   # Must be false for real robot
+
+### Controller (Local Path Following) ###
+controller_server:
+  ros__parameters:
+    use_sim_time: false
+    min_x_velocity_threshold: 0.05        # Minimum speed (m/s)
+    max_x_velocity: 0.5                   # Max linear speed (adjust for your robot)
+    max_rotational_velocity: 1.0          # Max angular speed (rad/s)
+    progress_checker:
+      required_movement_radius: 0.5
+      movement_time_allowance: 10.0

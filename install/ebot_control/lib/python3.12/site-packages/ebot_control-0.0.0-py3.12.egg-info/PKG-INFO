@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ebot-control
+Version: 0.0.0
+Summary: ROS2 package for ebot control and navigation
+Maintainer: sravan
+Maintainer-email: sravanvintillx@gmail.com
+License: Apache License 2.0

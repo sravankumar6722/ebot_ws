@@ -1,0 +1,191 @@
+[0.367s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.367s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffabfdd310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffac1a5730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffac1a5730>>, mixin_verb=('build',))
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.438s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vgi/ebot_ws'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_control) by extension 'ignore'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_control) by extension 'ignore_ament_install'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_control) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_control) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_control) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_control) by extension 'colcon_meta'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_control) by extensions ['ros']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_control) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ebot_control' with type 'ros.ament_python' and name 'ebot_control'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.558s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.637s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vgi/ebot_ws/install
+[0.645s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 381 installed packages in /opt/ros/jazzy
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'ebot_control' build argument 'cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'ebot_control' build argument 'cmake_target' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'ebot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'ebot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'ebot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'ebot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'ebot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'ebot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'ebot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.868s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vgi/ebot_ws/build/ebot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vgi/ebot_ws/install/ebot_control', 'merge_install': False, 'path': '/home/vgi/ebot_ws/src/ebot_control', 'symlink_install': False, 'test_result_base': None}
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.871s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vgi/ebot_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vgi/ebot_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/vgi/ebot_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.872s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.876s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.877s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vgi/ebot_ws/src/ebot_control' with build type 'ament_python'
+[0.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_control', 'ament_prefix_path')
+[0.885s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vgi/ebot_ws/install/ebot_control/share/ebot_control/hook/ament_prefix_path.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vgi/ebot_ws/install/ebot_control/share/ebot_control/hook/ament_prefix_path.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vgi/ebot_ws/install/ebot_control/share/ebot_control/hook/ament_prefix_path.sh'
+[0.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.917s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vgi/ebot_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.918s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vgi/ebot_ws/src/sllidar_ros2'
+[0.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.343s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vgi/ebot_ws/src/ebot_control'
+[2.343s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vgi/ebot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vgi/ebot_ws/build/sllidar_ros2 -- -j4 -l4
+[5.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vgi/ebot_ws/src/ebot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vgi/ebot_ws/build/ebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ebot_control build --build-base /home/vgi/ebot_ws/build/ebot_control/build install --record /home/vgi/ebot_ws/build/ebot_control/install.log --single-version-externally-managed install_data
+[9.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vgi/ebot_ws/src/ebot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vgi/ebot_ws/build/ebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ebot_control build --build-base /home/vgi/ebot_ws/build/ebot_control/build install --record /home/vgi/ebot_ws/build/ebot_control/install.log --single-version-externally-managed install_data
+[9.766s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/ebot_control' for CMake module files
+[9.768s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/ebot_control' for CMake config files
+[9.772s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/ebot_control/lib'
+[9.773s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/ebot_control/bin'
+[9.773s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/ebot_control/lib/pkgconfig/ebot_control.pc'
+[9.775s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/ebot_control/lib/python3.12/site-packages'
+[9.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_control', 'pythonpath')
+[9.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vgi/ebot_ws/install/ebot_control/share/ebot_control/hook/pythonpath.ps1'
+[9.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vgi/ebot_ws/install/ebot_control/share/ebot_control/hook/pythonpath.dsv'
+[9.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vgi/ebot_ws/install/ebot_control/share/ebot_control/hook/pythonpath.sh'
+[9.790s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/ebot_control/bin'
+[9.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_control)
+[9.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/ebot_control/share/ebot_control/package.ps1'
+[9.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vgi/ebot_ws/install/ebot_control/share/ebot_control/package.dsv'
+[9.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/ebot_control/share/ebot_control/package.sh'
+[9.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/ebot_control/share/ebot_control/package.bash'
+[9.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/ebot_control/share/ebot_control/package.zsh'
+[9.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vgi/ebot_ws/install/ebot_control/share/colcon-core/packages/ebot_control)
+[27.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vgi/ebot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vgi/ebot_ws/build/sllidar_ros2 -- -j4 -l4
+[27.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vgi/ebot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vgi/ebot_ws/build/sllidar_ros2
+[27.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[27.517s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2' for CMake module files
+[27.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vgi/ebot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vgi/ebot_ws/install/ebot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vgi/ebot_ws/build/sllidar_ros2
+[27.520s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2' for CMake config files
+[27.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[27.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[27.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[27.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[27.528s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2/lib'
+[27.528s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2/bin'
+[27.528s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[27.529s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[27.530s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2/bin'
+[27.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[27.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[27.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[27.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[27.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[27.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vgi/ebot_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[27.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[27.545s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2' for CMake module files
+[27.546s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2' for CMake config files
+[27.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[27.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[27.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[27.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[27.559s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2/lib'
+[27.561s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2/bin'
+[27.564s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[27.565s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[27.566s] Level 1:colcon.colcon_core.environment:checking '/home/vgi/ebot_ws/install/sllidar_ros2/bin'
+[27.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[27.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[27.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[27.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[27.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/vgi/ebot_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[27.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vgi/ebot_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[27.587s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.589s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.590s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.614s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.615s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.615s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.694s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.695s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vgi/ebot_ws/install/local_setup.ps1'
+[27.700s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vgi/ebot_ws/install/_local_setup_util_ps1.py'
+[27.704s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vgi/ebot_ws/install/setup.ps1'
+[27.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vgi/ebot_ws/install/local_setup.sh'
+[27.709s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vgi/ebot_ws/install/_local_setup_util_sh.py'
+[27.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vgi/ebot_ws/install/setup.sh'
+[27.721s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vgi/ebot_ws/install/local_setup.bash'
+[27.724s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vgi/ebot_ws/install/setup.bash'
+[27.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vgi/ebot_ws/install/local_setup.zsh'
+[27.732s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vgi/ebot_ws/install/setup.zsh'
